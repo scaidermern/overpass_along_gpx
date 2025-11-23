@@ -1,0 +1,3 @@
+node["amenity"="waste_basket"]
+node["amenity"="bench"]
+way["leisure"="swimming_pool"]

@@ -360,7 +360,7 @@ def main() -> int:
     parser.add_argument('-q', '--query',
         help='Overpass API tag query, e.g. \'node["amenity"~"bench|waste_basket"]\'')
     parser.add_argument('-f', '--queryfile',
-        help='file that contains Overpass API tag queries, one per line')
+        help='file that contains Overpass API tag queries, one query per line')
     parser.add_argument('-n', '--name', help='title of the resulting GPX file')
     parser.add_argument('-t', '--timeout', type=int, default=120,
         help='timeout of the Overpass API query in seconds')
